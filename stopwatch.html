@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animated Stopwatch</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="bg"></div>
+
+  <div class="container">
+    <h1 class="fade-in">⏱ Stopwatch</h1>
+
+    <div class="circle zoom-in">
+      <div class="time-display" id="display">00:00:00</div>
+    </div>
+
+    <div class="buttons fade-in">
+      <button id="startPauseBtn">Start</button>
+      <button id="resetBtn">Reset</button>
+      <button id="lapBtn">Lap</button>
+    </div>
+
+    <ul class="laps fade-in" id="laps"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
